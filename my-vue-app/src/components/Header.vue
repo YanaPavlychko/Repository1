@@ -1,18 +1,21 @@
 <template>
   <header>
-    <h1>Мій перший Vue-додаток!</h1>
+    <h1>{{title}}</h1>
   </header>
 </template>
+
 <script>
 export default {
   name: "HeaderComponent",
+  props:["title"]
 };
 </script>
+
 <style scoped>
 header {
-  background: #42b983;
-  color: white;
+  background-color: #42b983;
+  color: #fff;
   padding: 15px;
   text-align: center;
 }
-</style>
+</style> 
