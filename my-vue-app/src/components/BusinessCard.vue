@@ -8,7 +8,8 @@
 
 <script>
 export default {
-  props: ['name', 'phone', 'email']
+  name:"BusinessCard",
+  props:['name', 'phone', 'email']
 }
 </script>
 
