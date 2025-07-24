@@ -4,17 +4,21 @@
     <HeaderComponent title="Текст!!" />
     <MessageComponent title="test1" message="Lorem Lorem" />
     <MessageComponent title="test2" message="Lorem2 Lorem2" />
+    <BusinessCard name="ім'я" phone="номер" email="пошта" />
   </div>
 </template>
 
 <script>
-import MessageComponent from "./components/MessageComponent.vue ";
-import HeaderComponent from "./components/Header.vue ";
+import MessageComponent from './components/MessageComponent.vue ';
+import HeaderComponent from './components/Header.vue ';
+import BusinessCard from './components/BusinessCard.vue';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     HeaderComponent,
+    MessageComponent,
+    BusinessCard,
   },
 };
 </script>
